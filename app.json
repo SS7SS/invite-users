@@ -1,0 +1,35 @@
+{
+	"name": "invite users",
+	"description": "Dev @S_Y_V!",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon",
+		"telebot",
+		"heroku"
+	],
+	"repository": "https://github.com/ss7ss/invite-users",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "ضع التوكن الخاص بك .",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "ضع ايبي هاش الخاص بك .",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "ضع ايبي ايدي الخاص بك .",
+            "value": ""
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+

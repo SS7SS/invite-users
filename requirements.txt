@@ -1,0 +1,4 @@
+pyrogram
+certifi
+asyncio
+telebot
